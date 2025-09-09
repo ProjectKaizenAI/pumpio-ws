@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: pumpio-ws
-    env: node
-    plan: free
-    buildCommand: "npm install"
-    startCommand: "npm start"
-    autoDeploy: true
